@@ -1,9 +1,26 @@
 body{
     margin: 0 auto;
+    justify-content: center;
+    
 }
 
 div {
     display: flex;
     flex-direction: column;
     flex: 2;
+}
+
+h1{
+    font-size: large;
+    font-size: 38px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+span{
+    font-size: 24px;
+    font-style: italic;
 }
