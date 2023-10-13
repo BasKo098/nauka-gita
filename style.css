@@ -1,32 +1,21 @@
 body {
     margin: 0 auto;
-    justify-content: center;
-    
-}
-
-div {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 2;
-    margin: 5px 40px;
-    max-width: 300px;
-    width: 100%;
-}
-
-h1 {
-    font-size: large;
-    font-size: 38px;
-}
-
-p {
     text-align: center;
-    font-size: 20px;
-    justify-content: center;
 }
 
-span {
-    font-size: 24px;
+.poem{
+    display:flex;
+    padding: 20px 180px;
+    max-width: 270px;
+}
+
+.autor{
+    padding-top: 15px;
     font-style: italic;
-    font-size: large; 
+    font-size: 18px;
+}
+
+.container p{
+    line-height: 1.7;
+    font-size: 18px;
 }
